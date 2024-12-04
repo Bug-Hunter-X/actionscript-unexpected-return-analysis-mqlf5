@@ -1,0 +1,3 @@
+# ActionScript Unexpected Return Bug
+
+This repository demonstrates a common ActionScript bug involving unexpected return statements within functions.  The `bug.as` file contains code with a potential problem; `bugSolution.as` offers a corrected version.  The issue arises from a `return` statement within the `else` block of a conditional statement. If the condition is false, the function exits before the remaining code is executed, possibly leading to unexpected behavior or errors in other parts of the application. The solution demonstrates how to handle this appropriately by ensuring all relevant code executes as intended regardless of the condition.
